@@ -1,10 +1,9 @@
 const express = require('express')
 const logger = require('./logger')
+const {students} = require('./student')
 
 const app = express()
 const port = 5000
-
-const {students} = require('./student')
 
 app.use(logger)
 
